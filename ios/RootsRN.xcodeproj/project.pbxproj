@@ -14,6 +14,19 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-RootsRN-RootsRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RootsRN-RootsRNTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A25BEF202961EF8B00B7877C /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = A25BEF1F2961EF8B00B7877C /* Apollo */; };
+		A25BEF222961EF8B00B7877C /* Authenticate in Frameworks */ = {isa = PBXBuildFile; productRef = A25BEF212961EF8B00B7877C /* Authenticate */; };
+		A25BEF242961EF8B00B7877C /* Builders in Frameworks */ = {isa = PBXBuildFile; productRef = A25BEF232961EF8B00B7877C /* Builders */; };
+		A25BEF262961EF8B00B7877C /* Castor in Frameworks */ = {isa = PBXBuildFile; productRef = A25BEF252961EF8B00B7877C /* Castor */; };
+		A25BEF282961EF8B00B7877C /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = A25BEF272961EF8B00B7877C /* Domain */; };
+		A25BEF2A2961EF8B00B7877C /* Mercury in Frameworks */ = {isa = PBXBuildFile; productRef = A25BEF292961EF8B00B7877C /* Mercury */; };
+		A25BEF2C2961EF8B00B7877C /* Pluto in Frameworks */ = {isa = PBXBuildFile; productRef = A25BEF2B2961EF8B00B7877C /* Pluto */; };
+		A25BEF2E2961EF8B00B7877C /* Pollux in Frameworks */ = {isa = PBXBuildFile; productRef = A25BEF2D2961EF8B00B7877C /* Pollux */; };
+		A25BEF302961EF8B00B7877C /* PrismAgent in Frameworks */ = {isa = PBXBuildFile; productRef = A25BEF2F2961EF8B00B7877C /* PrismAgent */; };
+		A25BEF3A2961F1B300B7877C /* DIDFunctionalities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25BEF342961F1B300B7877C /* DIDFunctionalities.swift */; };
+		A25BEF3C2961F1B300B7877C /* RCTCalendarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BEF362961F1B300B7877C /* RCTCalendarModule.m */; };
+		A25BEF3D2961F1B300B7877C /* DIDFunctionalities.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BEF372961F1B300B7877C /* DIDFunctionalities.m */; };
+		A25BEF3E2961F1B300B7877C /* DEV.md in Resources */ = {isa = PBXBuildFile; fileRef = A25BEF392961F1B300B7877C /* DEV.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +56,13 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-RootsRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RootsRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RootsRN/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RootsRN-RootsRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RootsRN-RootsRNTests.release.xcconfig"; path = "Target Support Files/Pods-RootsRN-RootsRNTests/Pods-RootsRN-RootsRNTests.release.xcconfig"; sourceTree = "<group>"; };
+		A25BEF312961F1B100B7877C /* RootsRN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RootsRN-Bridging-Header.h"; sourceTree = "<group>"; };
+		A25BEF322961F1B300B7877C /* DIDFunctionalities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIDFunctionalities.h; sourceTree = "<group>"; };
+		A25BEF332961F1B300B7877C /* RCTCalendarModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTCalendarModule.h; sourceTree = "<group>"; };
+		A25BEF342961F1B300B7877C /* DIDFunctionalities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIDFunctionalities.swift; sourceTree = "<group>"; };
+		A25BEF362961F1B300B7877C /* RCTCalendarModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTCalendarModule.m; sourceTree = "<group>"; };
+		A25BEF372961F1B300B7877C /* DIDFunctionalities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIDFunctionalities.m; sourceTree = "<group>"; };
+		A25BEF392961F1B300B7877C /* DEV.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = DEV.md; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -59,7 +79,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25BEF282961EF8B00B7877C /* Domain in Frameworks */,
+				A25BEF2C2961EF8B00B7877C /* Pluto in Frameworks */,
+				A25BEF262961EF8B00B7877C /* Castor in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-RootsRN.a in Frameworks */,
+				A25BEF222961EF8B00B7877C /* Authenticate in Frameworks */,
+				A25BEF242961EF8B00B7877C /* Builders in Frameworks */,
+				A25BEF302961EF8B00B7877C /* PrismAgent in Frameworks */,
+				A25BEF202961EF8B00B7877C /* Apollo in Frameworks */,
+				A25BEF2A2961EF8B00B7877C /* Mercury in Frameworks */,
+				A25BEF2E2961EF8B00B7877C /* Pollux in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +115,12 @@
 		13B07FAE1A68108700A75B9A /* RootsRN */ = {
 			isa = PBXGroup;
 			children = (
+				A25BEF322961F1B300B7877C /* DIDFunctionalities.h */,
+				A25BEF372961F1B300B7877C /* DIDFunctionalities.m */,
+				A25BEF342961F1B300B7877C /* DIDFunctionalities.swift */,
+				A25BEF332961F1B300B7877C /* RCTCalendarModule.h */,
+				A25BEF362961F1B300B7877C /* RCTCalendarModule.m */,
+				A25BEF312961F1B100B7877C /* RootsRN-Bridging-Header.h */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -116,6 +151,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				A25BEF392961F1B300B7877C /* DEV.md */,
 				13B07FAE1A68108700A75B9A /* RootsRN */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RootsRNTests */,
@@ -182,14 +218,25 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				0EA9DF5D87C9DC482E0382C2 /* [CP] Embed Pods Frameworks */,
+				8721D08E993221611A72117C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RootsRN;
+			packageProductDependencies = (
+				A25BEF1F2961EF8B00B7877C /* Apollo */,
+				A25BEF212961EF8B00B7877C /* Authenticate */,
+				A25BEF232961EF8B00B7877C /* Builders */,
+				A25BEF252961EF8B00B7877C /* Castor */,
+				A25BEF272961EF8B00B7877C /* Domain */,
+				A25BEF292961EF8B00B7877C /* Mercury */,
+				A25BEF2B2961EF8B00B7877C /* Pluto */,
+				A25BEF2D2961EF8B00B7877C /* Pollux */,
+				A25BEF2F2961EF8B00B7877C /* PrismAgent */,
+			);
 			productName = RootsRN;
 			productReference = 13B07F961A680F5B00A75B9A /* RootsRN.app */;
 			productType = "com.apple.product-type.application";
@@ -207,7 +254,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -220,6 +267,9 @@
 				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
+			packageReferences = (
+				A25BEF1E2961EF8B00B7877C /* XCRemoteSwiftPackageReference "atala-prism-swift-sdk" */,
+			);
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -242,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25BEF3E2961F1B300B7877C /* DEV.md in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -266,7 +317,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		0EA9DF5D87C9DC482E0382C2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,6 +332,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RootsRN/Pods-RootsRN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8721D08E993221611A72117C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RootsRN/Pods-RootsRN-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RootsRN/Pods-RootsRN-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RootsRN/Pods-RootsRN-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -344,23 +412,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RootsRN-RootsRNTests/Pods-RootsRN-RootsRNTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RootsRN/Pods-RootsRN-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RootsRN/Pods-RootsRN-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RootsRN/Pods-RootsRN-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -412,7 +463,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25BEF3C2961F1B300B7877C /* RCTCalendarModule.m in Sources */,
+				A25BEF3D2961F1B300B7877C /* DIDFunctionalities.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				A25BEF3A2961F1B300B7877C /* DIDFunctionalities.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +486,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-RootsRN-RootsRNTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -459,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-RootsRN-RootsRNTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = RootsRNTests/Info.plist;
@@ -488,7 +544,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZX425MP8T7;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/MLKitBarcodeScanning/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLKitVision/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLKitCommon/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLImage/Frameworks",
+				);
 				INFOPLIST_FILE = RootsRN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,6 +564,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RootsRN;
+				SWIFT_OBJC_BRIDGING_HEADER = "RootsRN-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -514,7 +579,15 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZX425MP8T7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/MLKitBarcodeScanning/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLKitVision/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLKitCommon/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLImage/Frameworks",
+				);
 				INFOPLIST_FILE = RootsRN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,6 +599,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RootsRN;
+				SWIFT_OBJC_BRIDGING_HEADER = "RootsRN-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -699,6 +773,65 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A25BEF1E2961EF8B00B7877C /* XCRemoteSwiftPackageReference "atala-prism-swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/input-output-hk/atala-prism-swift-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A25BEF1F2961EF8B00B7877C /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A25BEF1E2961EF8B00B7877C /* XCRemoteSwiftPackageReference "atala-prism-swift-sdk" */;
+			productName = Apollo;
+		};
+		A25BEF212961EF8B00B7877C /* Authenticate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A25BEF1E2961EF8B00B7877C /* XCRemoteSwiftPackageReference "atala-prism-swift-sdk" */;
+			productName = Authenticate;
+		};
+		A25BEF232961EF8B00B7877C /* Builders */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A25BEF1E2961EF8B00B7877C /* XCRemoteSwiftPackageReference "atala-prism-swift-sdk" */;
+			productName = Builders;
+		};
+		A25BEF252961EF8B00B7877C /* Castor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A25BEF1E2961EF8B00B7877C /* XCRemoteSwiftPackageReference "atala-prism-swift-sdk" */;
+			productName = Castor;
+		};
+		A25BEF272961EF8B00B7877C /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A25BEF1E2961EF8B00B7877C /* XCRemoteSwiftPackageReference "atala-prism-swift-sdk" */;
+			productName = Domain;
+		};
+		A25BEF292961EF8B00B7877C /* Mercury */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A25BEF1E2961EF8B00B7877C /* XCRemoteSwiftPackageReference "atala-prism-swift-sdk" */;
+			productName = Mercury;
+		};
+		A25BEF2B2961EF8B00B7877C /* Pluto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A25BEF1E2961EF8B00B7877C /* XCRemoteSwiftPackageReference "atala-prism-swift-sdk" */;
+			productName = Pluto;
+		};
+		A25BEF2D2961EF8B00B7877C /* Pollux */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A25BEF1E2961EF8B00B7877C /* XCRemoteSwiftPackageReference "atala-prism-swift-sdk" */;
+			productName = Pollux;
+		};
+		A25BEF2F2961EF8B00B7877C /* PrismAgent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A25BEF1E2961EF8B00B7877C /* XCRemoteSwiftPackageReference "atala-prism-swift-sdk" */;
+			productName = PrismAgent;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
 }
