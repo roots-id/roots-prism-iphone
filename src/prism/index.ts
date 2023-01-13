@@ -154,6 +154,5 @@ function generateOOB(mediatorPeerDID: string): string {
     //     msgString = JSON.stringify(msg);
     //     console.log("wallet - OOB message is", msgString);
     // })
-
     return msgString;
 }
