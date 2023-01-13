@@ -1,0 +1,9 @@
+.gitmodules
+[submodule "roots-react-native-experimental"]
+	path = roots-react-native-experimental
+	url = https://github.com/roots-id/roots-react-native-experimental.git
+
+.git/ocnfig
+[submodule "roots-react-native-experimental"]
+        url = https://github.com/roots-id/roots-react-native-experimental.git
+        active = true
