@@ -1,4 +1,3 @@
-import { EventType } from "roots-manager";
 import { rootsManager } from "roots-manager/src/events";
 import {IdType} from 'roots-manager';
 import {CreateIdProtocol} from 'roots-manager/src/protocol/id';
